@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <h1>What are you looking for?</h1>
+  </div>
 </template>
 
 <script>
