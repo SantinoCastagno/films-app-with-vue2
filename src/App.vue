@@ -1,7 +1,6 @@
-
 <template>
   <div id="app">
-    <div class=title >
+    <div class="header">
       <h1>Films app with Vue 2</h1>
     </div>
     <div id="nav">
@@ -20,28 +19,40 @@
   kRedColor:    #DA0037
   kWhiteColor:  #EDEDED
 */
-@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap");
 
 body {
   overflow-x: hidden;
   overflow-y: hidden;
 
-  font-family: 'Zen Loop', Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Zen Loop", Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   width: 100vw;
   height: 100vh;
   background: #444444;
-  color: #EDEDED;
+  color: #ededed;
 
-  font-size: 3rem;
+  
 }
 
 #app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  margin: 5vh 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #944460;
+  font-size: 3rem;
   text-align: center;
+  width: 40vw;
+  height: 20vh;
+  border-radius: 24px;
 }
 </style>
