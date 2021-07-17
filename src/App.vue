@@ -3,10 +3,6 @@
     <div class="header">
       <h1>Films app with Vue 2</h1>
     </div>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
   </div>
 </template>
@@ -33,8 +29,6 @@ body {
   height: 100vh;
   background: #444444;
   color: #ededed;
-
-  
 }
 
 #app {
@@ -48,7 +42,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #944460;
+  background: #DA0037;
   font-size: 3rem;
   text-align: center;
   width: 40vw;
