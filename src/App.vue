@@ -17,6 +17,11 @@
 */
 @import url("https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   overflow-x: hidden;
   overflow-y: hidden;
