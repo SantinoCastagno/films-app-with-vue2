@@ -1,6 +1,8 @@
 <template>
   <a href="http://">
-    <span> Movies </span>
+    <span>
+      <h4>{{ buttonTitle }}</h4>
+    </span>
   </a>
 </template>
 
@@ -16,26 +18,21 @@ export default {
 <style scoped>
 a {
   color: #fff;
-  position: relative;
   display: inline-block;
-  padding: 15px;
-  border: 1px solid #ededed;
-
+  padding: 1rem;
+  border: 0.2rem solid #ededed;
   text-decoration: none;
+  height: 10vh;
+  width: 10vw;
 }
 
-a:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -2px;
-  width: calc(100%+4px);
-  height: 100%;
-  background: #fff;
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-a span {
-  position: relative;
-  z-index: 3;
+h4 {
+  font-size: 2.5rem;
 }
 </style>

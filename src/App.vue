@@ -32,7 +32,7 @@ body {
 
   width: 100vw;
   height: 100vh;
-  background: #444444;
+  background: #171717;
   color: #ededed;
 }
 
@@ -47,11 +47,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #da0037;
+  border: 0.2rem solid #da0037;
   font-size: 3rem;
   text-align: center;
   width: 40vw;
   height: 20vh;
-  border-radius: 24px;
+  border-radius: 0.2;
 }
 </style>
