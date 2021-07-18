@@ -42,7 +42,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #DA0037;
+  background: #da0037;
   font-size: 3rem;
   text-align: center;
   width: 40vw;

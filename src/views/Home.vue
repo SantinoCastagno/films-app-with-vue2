@@ -1,13 +1,15 @@
 <template>
   <div>
     <h3>What are you looking for?</h3>
+    <homeButton :buttonTitle="hola" />
   </div>
 </template>
 
 <script>
+import homeButton from "../components/HomeButton.vue";
 export default {
   name: "Home",
-  components: {},
+  components: { homeButton },
 };
 </script>
 

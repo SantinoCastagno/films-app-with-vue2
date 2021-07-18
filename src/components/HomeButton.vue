@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "Button",
+  name: "HomeButton",
   props: {
     buttonTitle: String,
   },
@@ -12,5 +12,10 @@ export default {
 </script>
 
 <style scoped>
-   
+a {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  border: 2px solid;
+}
 </style>
