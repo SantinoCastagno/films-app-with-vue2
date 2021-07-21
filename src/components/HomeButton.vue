@@ -17,19 +17,16 @@ export default {
 
 <style scoped>
 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   color: #fff;
-  display: inline-block;
   padding: 1rem;
   border: 0.2rem solid #ededed;
   text-decoration: none;
   height: 10vh;
   width: 10vw;
-}
-
-span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 h4 {
