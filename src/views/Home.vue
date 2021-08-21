@@ -2,18 +2,11 @@
   <div class="home">
     <h3>What are you looking for?</h3>
     <div class="row">
-      <homeButton buttonTitle="Movies" />
-      <homeButton buttonTitle="Series" />
     </div>
   </div>
 </template>
 
 <script>
-import homeButton from "../components/HomeButton.vue";
-export default {
-  name: "Home",
-  components: { homeButton },
-};
 </script>
 
 <style scoped>

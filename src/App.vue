@@ -1,26 +1,16 @@
 <template>
   <div id="app">
-    <div class="header">
-      <h1>Films app with Vue 2</h1>
-    </div>
+    <Header />
     <router-view />
   </div>
 </template>
 
 <script>
-const axios = require("axios");
+import Header from "./components/Header.vue";
 
 export default {
-  async mounted() {
-    //axios request with params
-    const res = await axios.get("https://api.themoviedb.org/3/tv/latest", {
-      params: {
-        //Enviroment variables that start "VUE_APP" are loading automatically
-        api_key: process.env.VUE_APP_API_KEY,
-        language: "en-US",
-      },
-    });
-    console.log(res.data);
+  components: {
+    Header,
   },
 };
 </script>
@@ -28,10 +18,10 @@ export default {
 <style>
 /*
   Colors palette
-  kBlackColor:  #171717
-  kGreyColor:   #444444
-  kRedColor:    #DA0037
-  kWhiteColor:  #EDEDED
+  kDarkBlue:    #053742
+  kBlue:        #39A2DB
+  kHeavenly:    #A2DBFA
+  kWhiteColor:  #E8F0F2
 */
 @import url("https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap");
 
@@ -50,7 +40,7 @@ body {
 
   width: 100vw;
   height: 100vh;
-  background: #171717;
+  background: #e8f0f2;
   color: #ededed;
 }
 
@@ -65,7 +55,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0.2rem solid #da0037;
+  border: 0.2rem solid #39a2db;
   font-size: 3rem;
   text-align: center;
   width: 40vw;
