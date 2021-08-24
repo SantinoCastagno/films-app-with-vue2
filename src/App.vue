@@ -25,7 +25,6 @@ export default {
 */
 @import url("https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -49,18 +48,5 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.header {
-  margin: 5vh 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 0.2rem solid #39a2db;
-  font-size: 3rem;
-  text-align: center;
-  width: 40vw;
-  height: 20vh;
-  border-radius: 0.2;
 }
 </style>

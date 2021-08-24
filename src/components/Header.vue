@@ -15,7 +15,7 @@ export default {};
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 header {
   margin: 10px 0px;
@@ -25,7 +25,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.4rem;
   width: 96vw;
 }
 
@@ -39,6 +39,7 @@ ul {
   border-left: 2px solid #053742;
   margin: 6px 20px;
   font-family: roboto;
+  font-size: 1rem;
 }
 
 li {
@@ -48,13 +49,12 @@ li {
 
 a,
 a:visited {
-  color: #39a2db;
+  color: #053742;
   text-decoration-color: #e8f0f2;
   transition-duration: 1s;
 }
 
 a:hover {
-  color: #39a2db;
   text-decoration-color: #053742;
   transition-duration: 1s;
 }
