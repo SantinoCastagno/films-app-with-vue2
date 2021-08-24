@@ -2,8 +2,10 @@
   <header>
     <h2>Films app with Vue 2</h2>
     <nav>
-      <a href="Movies">movies</a>
-      <a href="Series">series</a>
+      <ul>
+        <li><router-link to="/series">series</router-link></li>
+        <li><router-link to="/movies">movies</router-link></li>
+      </ul>
     </nav>
   </header>
 </template>
@@ -13,23 +15,47 @@ export default {};
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 header {
   margin: 10px 0px;
   padding: 0px 20px;
-  border-bottom: solid #39a2db;
-  color: #39a2db;
+  border-bottom: solid #053742;
+  color: #053742;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2rem;
   width: 96vw;
 }
 
-nav {
-  display: flex;
+nav ul li {
+  list-style: none;
 }
 
-a {
-  text-decoration: none;
+ul {
+  display: flex;
+  flex-direction: row;
+  border-left: 2px solid #053742;
+  margin: 6px 20px;
+  font-family: roboto;
+}
+
+li {
+  margin: 2px 6px;
+  padding: 6px 12px;
+}
+
+a,
+a:visited {
+  color: #39a2db;
+  text-decoration-color: #e8f0f2;
+  transition-duration: 1s;
+}
+
+a:hover {
+  color: #39a2db;
+  text-decoration-color: #053742;
+  transition-duration: 1s;
 }
 </style>

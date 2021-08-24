@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <h1>Series</h1>
 </template>
 
 <script>
