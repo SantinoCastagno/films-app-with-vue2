@@ -1,8 +1,6 @@
 <template>
   <div class="home">
     <h3>What are you looking for?</h3>
-    <div class="row">
-    </div>
   </div>
 </template>
 
@@ -23,11 +21,5 @@ h3 {
   flex-direction: column;
   justify-content: space-around;
   height: 50vh;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 </style>

@@ -15,7 +15,14 @@ export default {
         language: "en-US",
       },
     });
-    console.log(res.data);
+    this.series = res.data;
+    console.log(this.series);
+  },
+
+  data() {
+    return {
+      series: [],
+    };
   },
 };
 </script>
