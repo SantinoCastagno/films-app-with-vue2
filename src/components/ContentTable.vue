@@ -43,8 +43,8 @@ export default {
 };
 </script>
 
-<style>
-tr {
-  border-bottom: 1px solid #ddd;
+<style scoped>
+table {
+  border-spacing: 100px;
 }
 </style>
