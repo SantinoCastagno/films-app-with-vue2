@@ -25,7 +25,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.4rem;
   width: 96vw;
 }
 
@@ -39,7 +38,7 @@ ul {
   border-left: 2px solid #053742;
   margin: 6px 20px;
   font-family: roboto;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 li {

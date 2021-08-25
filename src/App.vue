@@ -38,6 +38,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  font-size: 2rem;
   width: 100vw;
   height: 100vh;
   background: #e8f0f2;
