@@ -31,16 +31,13 @@ export default {
 }
 
 body {
-  overflow-x: hidden;
-  overflow-y: hidden;
-
   font-family: "Zen Loop", Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  overflow-x: hidden;
   font-size: 2rem;
-  width: 100vw;
-  height: 100vh;
+  width: 99vw;
   background: #e8f0f2;
   color: #053742;
 }

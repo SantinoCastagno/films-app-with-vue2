@@ -8,6 +8,7 @@
     </thead>
     <tbody>
       <tr v-for="serie in series" :key="serie.id">
+        <!-- <td><img src="{{}}" alt=""></td> -->
         <td>{{ serie.name }}</td>
         <td>{{ serie.popularity }}</td>
         <td>{{ serie.vote_average }}</td>
@@ -45,6 +46,24 @@ export default {
 
 <style scoped>
 table {
-  border-spacing: 100px;
+  width: 80vw;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background: #39a2db;
+  color: whitesmoke;
+}
+
+th div {
+  border-bottom: 2px solid black;
+}
+
+tr {
+  height: 3.75rem;
+}
+
+td {
+  padding: 1vh 2vw;
 }
 </style>
