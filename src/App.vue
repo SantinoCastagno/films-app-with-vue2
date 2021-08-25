@@ -41,7 +41,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: #e8f0f2;
-  color: #ededed;
+  color: #053742;
 }
 
 #app {

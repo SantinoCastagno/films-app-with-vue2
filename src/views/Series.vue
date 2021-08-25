@@ -1,28 +1,15 @@
 <template>
-  <h1>Series</h1>
+  <div>
+    <ContentTable />
+  </div>
 </template>
 
 <script>
-const axios = require("axios");
+import ContentTable from "../components/ContentTable.vue";
 
 export default {
-  async mounted() {
-    //axios request with params
-    const res = await axios.get("https://api.themoviedb.org/3/tv/popular", {
-      params: {
-        //Enviroment variables that start "VUE_APP" are loading automatically
-        api_key: process.env.VUE_APP_API_KEY,
-        language: "en-US",
-      },
-    });
-    this.series = res.data;
-    console.log(this.series);
-  },
-
-  data() {
-    return {
-      series: [],
-    };
+  components: {
+    ContentTable,
   },
 };
 </script>
